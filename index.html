@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=devivce-width, initial-scale=1.0"/>
+        <meta content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
+        
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <link rel="stylesheet" href="/style.css"/>
+        <title></title>
+    </head>
+    <body>
+        
+            <table>
+                    <tr>
+                        <td>
+                                <select id="select">
+                                        <option selected="selected">Select location</option>
+                                        <option>Select location</option>
+                                    </select>
+                        </td>
+                        <td>
+                                <button id="button" onclick="fun()">Search</button>
+                        </td>
+                    </tr>
+                </table>
+            
+        
+        <div class="location">
+            <h1 class="location-timezone">Timezone</h1>
+           
+        </div>
+        <div class="temperature">
+            <div class="degree_section">
+                <table>
+                    <tr>
+                        <td>
+                                <h2 class="temperature-fahrenheit">34</h2>
+                        </td>
+                        <td>
+                                <span>F</span>
+                        </td>
+                        <td>
+                           &emsp;
+                        </td>
+
+                        <td>
+                            <h2 class="temperature-celsius">34</h2>
+                    </td>
+                    <td>
+                            <span>C</span>
+                    </td>
+                    </tr>
+                </table>
+             
+            
+            </div>
+            <div class="temperature-description">Its friggin cold</div>
+            <div class="temperature-description_hourly">Its friggin cold</div>
+            <div class="temperature-description_future">Its friggin cold</div>
+        </div>
+
+        <span id="demo" ></span>
+        <frame height="200px" width="300px" frameborder="0" scrolling="no" src="https://developers.google.com/maps/documentation/javascript/examples/full/map-sync" allowfullscreen="">
+        </iframe>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
